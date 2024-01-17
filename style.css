@@ -9,6 +9,30 @@ body {
   padding: 0;
 }
 
+h1 {
+  padding: 96px 24px 48px;
+}
+
+p {
+  font-size: 1.25rem;
+  padding: 0 24px;
+}
+
+strong {
+  font-weight: bold;
+  color: hsl(160deg, 100%, 30%);
+}
+
+.intro-chunk {
+  max-width: 800px;
+  margin: auto;
+  min-height: 382px;
+}
+
+.intro-chunk p {
+  max-width: 450px;
+}
+
 .bottom-content {
   background-color: hsl(0deg, 0%, 30%);
   border-top: 8px hsl(0deg, 0%, 60%) solid;
@@ -22,11 +46,6 @@ body {
   background: white;
   border-bottom: 8px hsl(0deg, 0%, 60%) solid;
   margin-top: 64px;
-}
-
-.card p {
-  padding: 0 24px;
-  font-size: 1.25rem;
 }
 
 .indented-heading {
