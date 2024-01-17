@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -9,4 +9,31 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+.bottom-content {
+  background-color: hsl(0deg, 0%, 30%);
+  border-top: 8px hsl(0deg, 0%, 60%) solid;
+  min-height: 450px;
+}
+
+.card {
+  max-width: 800px;
+  padding-top: 8px;
+  margin: auto;
+  background: white;
+  border-bottom: 8px hsl(0deg, 0%, 60%) solid;
+  margin-top: 64px;
+}
+
+.card p {
+  padding: 0 24px;
+  font-size: 1.25rem;
+}
+
+.indented-heading {
+  padding: 8px 32px;
+  margin: 0;
+  margin-left: -8px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px hsl(45deg, 100%, 40%) solid;
+  width: fit-content;
+}
