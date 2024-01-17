@@ -23,9 +23,12 @@ strong {
   color: hsl(160deg, 100%, 30%);
 }
 
-.intro-chunk {
+.max-width-wrapper {
   max-width: 800px;
-  margin: auto;
+  margin: 0 auto;
+}
+
+.intro-chunk {
   min-height: 382px;
 }
 
@@ -33,16 +36,19 @@ strong {
   max-width: 450px;
 }
 
-.bottom-content {
+main {
   background-color: hsl(0deg, 0%, 30%);
   border-top: 8px hsl(0deg, 0%, 60%) solid;
+}
+
+.bottom-content {
   min-height: 450px;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 .card {
-  max-width: 800px;
   padding-top: 8px;
-  margin: auto;
   background: white;
   border-bottom: 8px hsl(0deg, 0%, 60%) solid;
   margin-top: 64px;
@@ -52,6 +58,7 @@ strong {
   padding: 8px 32px;
   margin: 0;
   margin-left: -8px;
+  /* margin-right: 24px; */
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 8px hsl(45deg, 100%, 40%) solid;
   width: fit-content;
